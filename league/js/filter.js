@@ -77,7 +77,6 @@ function filterRows() {
     td9 = tr[i].getElementsByTagName("td")[9];
     
     if (td0 && td1 && td9) {
-      console.log(td9.innerHTML, winSelected);
       if (((td0.innerHTML.toUpperCase().indexOf(usernameSelected) > -1) || (usernameSelected === "ALL")) && 
           ((td1.innerHTML.toUpperCase().indexOf(championSelected) > -1) || (championSelected === "ALL")) &&
           ((td9.innerHTML === "True" && winSelected === "Win" ) || (td9.innerHTML === "False" && winSelected === "Loss") || (winSelected === "All"))){
