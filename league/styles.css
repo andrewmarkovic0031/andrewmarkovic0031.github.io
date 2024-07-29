@@ -2,3 +2,22 @@ td {
   text-align: center;
   vertical-align: middle;
 }
+
+#mainList {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#mainList th, #mainList td {
+  padding: 10px;
+}
+
+#mainList tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#mainList tr.header, #mainList tr:hover {
+  background-color: #f1f1f1;
+}
